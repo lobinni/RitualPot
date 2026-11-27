@@ -1,0 +1,20 @@
+{
+  "contractSource": "contracts/RitualPot.py",
+  "defaultNetwork": "studio-dev",
+  "networks": [
+    {
+      "id": "studio-dev",
+      "label": "GenLayer Studio Next",
+      "chainId": 61997,
+      "rpcUrl": "https://studio-next.genlayer.com/api",
+      "explorerUrl": "https://explorer-studio-next.genlayer.com",
+      "nativeSymbol": "GEN",
+      "address": "0x1c68e84C672feFf5B5C9e336fBCDff352aCf551C",
+      "deployedAt": "2026-11-27T06:21:48Z",
+      "deployedBy": "console",
+      "codeSha256": "6ae07c270299db7a9dd3e3b3c636b84b8851995a01bc5d15f8c3f9c6e4b331db",
+      "status": "deployed",
+      "notes": "Deployed from the Studio run/debug page; scripts/verify_deployment.py reports match (the stored copy uses CRLF line endings, so the raw hash differs until it is redeployed with LF)."
+    }
+  ]
+}

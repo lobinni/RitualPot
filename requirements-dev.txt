@@ -1,0 +1,7 @@
+# Tooling for the contract checks. The suite in tests/test_contract.py itself needs nothing
+# outside the standard library, so it runs on a bare checkout with `python3 tests/test_contract.py`.
+black==25.1.0
+flake8==7.2.0
+pytest==8.4.1
+# The official GenVM linter, used by scripts/lint_contract.sh when it is available.
+genvm-linter==0.3.0

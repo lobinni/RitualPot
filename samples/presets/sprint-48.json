@@ -1,0 +1,18 @@
+{
+  "id": "sprint-48",
+  "name": "48-hour sprint",
+  "description": "Two daily periods, four members, two agreeing rounds. The fastest way to walk the whole flow once: open, join, prove, rule twice, settle, withdraw.",
+  "form": {
+    "id": "sprint-48-01",
+    "title": "48 hour sprint",
+    "goal": "Complete one 30 minute focused session per period and publish a page listing the start time, the end time and the single output produced.",
+    "periods": "2",
+    "periodDays": "1",
+    "stake": "1",
+    "maxMembers": "4",
+    "rounds": "2",
+    "intervalMinutes": "10",
+    "joinHours": "24",
+    "rulingHours": "48"
+  }
+}

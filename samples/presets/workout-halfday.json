@@ -1,0 +1,18 @@
+{
+  "id": "workout-halfday",
+  "name": "Half-day workout check",
+  "description": "Three twelve-hour periods, one round per proof, small stake. Every member posts twice a day, which is what a short period really costs.",
+  "form": {
+    "id": "workout-halfday-01",
+    "title": "Half day workout check",
+    "goal": "Train once per period and publish a page showing the exercise list, the total repetitions and the time the session finished.",
+    "periods": "3",
+    "periodDays": "0.5",
+    "stake": "2",
+    "maxMembers": "3",
+    "rounds": "1",
+    "intervalMinutes": "5",
+    "joinHours": "6",
+    "rulingHours": "12"
+  }
+}

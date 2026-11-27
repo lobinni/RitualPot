@@ -1,0 +1,29 @@
+{
+  "_readme": "Parameter template for open_pot. Replace every value marked PLACEHOLDER with your own numbers, then use the same values in the console form. Nothing here is a demo: these are the values your pot will actually be bound by, and the contract refuses anything outside its limits.",
+  "pot_id": "PLACEHOLDER-kebab-case-id",
+  "title": "PLACEHOLDER short title",
+  "goal": "PLACEHOLDER one sentence a stranger can check against a single page: what counts as kept, and what must be visible on the page.",
+  "periods": "3",
+  "period_len": "86400",
+  "stake": "1000000000000000000",
+  "max_members": "4",
+  "rounds_required": "2",
+  "round_interval": "600",
+  "join_window": "86400",
+  "ruling_window": "172800",
+  "_limits": {
+    "periods": "2 to 6",
+    "period_len_seconds": "60 to 2592000",
+    "stake_wei": "at least 1000000000000000000, at most 1000000000000000000000000",
+    "max_members": "2 to 8",
+    "rounds_required": "1 or 2",
+    "round_interval_seconds": "60 to 2592000",
+    "join_window_seconds": "60 to 2592000",
+    "ruling_window_seconds": "60 to 2592000, and at least members x periods x rounds x interval + 60"
+  },
+  "_notes": [
+    "The goal is read by validators together with the frozen proof page; write it so that one page can settle it.",
+    "rounds_required = 2 means the same answer must arrive twice, a full round_interval apart.",
+    "Every value is fixed at opening: there is no setter and no owner afterwards."
+  ]
+}

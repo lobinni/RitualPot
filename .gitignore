@@ -1,0 +1,21 @@
+node_modules/
+.next/
+out/
+build/
+dist/
+*.tsbuildinfo
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+
+# local environment and secrets
+.env
+.env.*
+!.env.example
+
+# editors and os
+.DS_Store
+.idea/
+.vscode/

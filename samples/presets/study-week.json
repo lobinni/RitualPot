@@ -1,0 +1,18 @@
+{
+  "id": "study-week",
+  "name": "One week study log",
+  "description": "Six daily periods, six members, thirty minutes between rounds. A whole week of practice, with a ruling window wide enough for every round of every proof.",
+  "form": {
+    "id": "study-week-01",
+    "title": "One week study log",
+    "goal": "Study for at least one hour each day and publish a page per period listing the topic, the minutes studied and the material reviewed.",
+    "periods": "6",
+    "periodDays": "1",
+    "stake": "5",
+    "maxMembers": "6",
+    "rounds": "2",
+    "intervalMinutes": "30",
+    "joinHours": "48",
+    "rulingHours": "96"
+  }
+}

@@ -1,0 +1,11 @@
+[tool.black]
+line-length = 100
+target-version = ["py312"]
+
+[tool.flake8]
+max-line-length = 100
+extend-ignore = ["E501", "W503", "E203", "E402", "F403", "F405"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
